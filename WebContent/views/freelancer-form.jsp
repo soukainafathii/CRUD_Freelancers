@@ -8,9 +8,9 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
 <style>
-input[type=submit] {
+button {
   width: 100%;
-  background-color: #89CFF0;
+  background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -19,14 +19,8 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
-  background-color: #4CAF50;
-}
-
-div {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+button:hover {
+  background-color: #45a049;
 }
 </style>
 </head>
@@ -38,8 +32,8 @@ div {
 		<h1>Freelancer Directory</h1>
 		<hr/>
 		
-		<div class = "row" id="di">
-			<div class = "col-md-4">
+		<div class = "border border-success"  style="width:500px;  margin: 0 auto; margin-top: 50vh; transform: translateY(-50%); border-radius:8px;">
+			<div class = "">
 				<form action = "${pageContext.request.contextPath}/FreelancerController" method="POST">
 				
 					<div class = "form-group">
@@ -65,7 +59,7 @@ div {
 				
 					<input type = "hidden" name = "id" value = "${freelancer.id}"/>
 				
-					<button type = "submit" class = "btn btn-primary">Save</button>
+					<button type = "submit" class = "">Save</button>
 				</form>
 			</div>
 		</div>

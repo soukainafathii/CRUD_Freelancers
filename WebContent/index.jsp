@@ -2,7 +2,8 @@
     <head>
         <title>Login System</title>
         
-    <style>
+<style>
+   
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;

@@ -28,18 +28,19 @@
 		<p>${NOTIFICATION}</p>
 		
 		<p>
-			<button class = "btn btn-primary" onclick="window.location.href = 'views/freelancer-form.jsp'">Add Freelancer</button>
+			<button class = "btn btn-success" onclick="window.location.href = 'views/freelancer-form.jsp'">Ajouter Freelancer</button>
 		
 		</p>
 	
-		<table class = "table table-Primary table-bordered" id="datatable">
+		<table class = "table table-hover" id="datatable">
 			<thead>
-				<tr class = "thead-dark">
+				<tr class = "thead-light">
 					<th>Nom</th>
 					<th>Prenom</th>
 					<th>Email</th>
 					<th>nombre annees experience</th>
 					<th>competences</th>
+					<th>Action</th>
 				</tr>
 			</thead>
 			<tbody>
